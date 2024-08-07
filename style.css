@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 3px 5px rgb(128, 128, 128, 0.5);
+}
+
+#main-heading {
+  background-color: white;
+  font-size: 5vw;
+  width: 90%;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#images img {
+  max-width: 100%;
+}
+#img1 {
+  height: 3rem;
+}
+#img2 {
+  height: 3.3rem;
+}
+.memeheading {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+.memeheading p {
+  font-size: xx-large;
+  font-weight: 900;
+  color: darkgreen;
+  padding: 0.5rem;
+  border-left: 7px solid black;
+  border-right: 7px solid black;
+  cursor: pointer;
+}
+.memeheading p:hover {
+  font-size: 6vh;
+  border-left: 7px solid black;
+  border-right: 7px solid black;
+  background-color: antiquewhite;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#image {
+  width: 60vw;
+  height: 70vh;
+}
+.meme-area {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+}
+
+.title-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.author-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+p {
+  font-size: 150%;
+}
+@media (max-width: 1000px) {
+  #image {
+    width: 70vw;
+    height: 50vh;
+  }
+}
