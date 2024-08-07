@@ -61,16 +61,13 @@
   align-items: center;
 }
 #image {
-  width: 60vw;
-  height: 70vh;
+  height: 60vh;
+  object-fit: cover;
 }
 .meme-area {
-  width: 80vw;
-  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: contain;
 }
 
 .title-area {

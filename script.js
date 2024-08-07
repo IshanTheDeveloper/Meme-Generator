@@ -2,7 +2,6 @@ let authors = document.querySelector("#author");
 let images = document.querySelector("#image");
 let titles = document.querySelector("#title");
 let generate = document.querySelector("#generate");
-
 const updateDetails = (url, title, author) => {
   images.setAttribute("src", url);
   authors.innerHTML = author;
