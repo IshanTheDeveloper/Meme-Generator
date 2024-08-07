@@ -50,9 +50,6 @@
   cursor: pointer;
 }
 .memeheading p:hover {
-  font-size: 6vh;
-  border-left: 7px solid black;
-  border-right: 7px solid black;
   background-color: antiquewhite;
 }
 .main-container {
@@ -62,7 +59,7 @@
 }
 #image {
   height: 60vh;
-  object-fit: cover;
+  width: 60vw;
 }
 .meme-area {
   display: flex;
@@ -88,7 +85,13 @@ p {
 }
 @media (max-width: 1000px) {
   #image {
-    width: 70vw;
+    width: 90vw;
+    height: 60vh;
+  }
+}
+@media (max-width: 500px) {
+  #image {
+    width: 90vw;
     height: 50vh;
   }
 }
